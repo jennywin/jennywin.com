@@ -2,7 +2,7 @@ const autoprefixer = require('autoprefixer')
 
 module.exports = {
   siteMetadata: {
-    title: 'Testing!',
+    title: 'Jenny Nguyen',
   },
   pathPrefix: '/',
   plugins: [
