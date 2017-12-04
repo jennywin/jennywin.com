@@ -1,0 +1,26 @@
+{
+  "name": "jennywin.com",
+  "description": "Jenny Nguyen personal site",
+  "version": "1.0.0",
+  "author": "Jenny Nguyen <j@jennywin.com>",
+  "scripts": {
+    "dev": "gatsby develop",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "git clean -xfd .cache public/",
+    "serve": "yarn run clean && yarn run build && gatsby serve",
+    "deploy": "yarn run build -- --prefix-paths && surge public/ --domain jennywin.com"
+  },
+  "dependencies": {
+    "autoprefixer": "^7.1.2",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "gatsby": "^1.1.0",
+    "gatsby-link": "^1.3.2",
+    "grommet": "^1.5.0",
+    "node-sass": "^4.5.2",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "sass-loader": "^4.1.1"
+  }
+}
