@@ -1,10 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-// Grommet
 import App from 'grommet/components/App'
+import Article from 'grommet/components/Article'
 
-// Styles
+import Header from '../components/Header'
+import Footer from '../components/Footer'
 import '../scss/main.scss'
 
 export default class IndexLayout extends React.Component {
@@ -15,7 +16,11 @@ export default class IndexLayout extends React.Component {
   render() {
     return (
       <App centered={false}>
-        {this.props.children()}
+        <Article>
+          <Header />
+          {this.props.children()}
+          <Footer />
+        </Article>
       </App>
     )
   }

@@ -5,7 +5,7 @@ import Heading from 'grommet/components/Heading'
 import Section from 'grommet/components/Section'
 import Paragraph from 'grommet/components/Paragraph'
 
-export default class Index extends React.Component {
+export default class Contact extends React.Component {
   render() {
     return (
       <Section
@@ -15,11 +15,11 @@ export default class Index extends React.Component {
         align="center"
       >
         <Heading tag="h1">
-          <strong>Index</strong>
+          <strong>Contact</strong>
         </Heading>
 
         <Paragraph>
-          This is the home page. Put a hero here.
+          Icons for LinkedIn, GitHub, Codepen, etc.? Email address. Stuff like that.
         </Paragraph>
       </Section>
     )

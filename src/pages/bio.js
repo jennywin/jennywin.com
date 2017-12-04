@@ -5,7 +5,7 @@ import Heading from 'grommet/components/Heading'
 import Section from 'grommet/components/Section'
 import Paragraph from 'grommet/components/Paragraph'
 
-export default class Index extends React.Component {
+export default class Bio extends React.Component {
   render() {
     return (
       <Section
@@ -15,11 +15,11 @@ export default class Index extends React.Component {
         align="center"
       >
         <Heading tag="h1">
-          <strong>Index</strong>
+          <strong>Bio</strong>
         </Heading>
 
         <Paragraph>
-          This is the home page. Put a hero here.
+          This is about me.
         </Paragraph>
       </Section>
     )
