@@ -18,7 +18,8 @@ export default class Main extends React.PureComponent {
             direction='row'
             justify='center'
             align='center'
-            pad='small'>
+            pad='small'
+          >
             <Anchor href='/'>
               <img src={Logo} className="logo" />
             </Anchor>
@@ -33,7 +34,8 @@ export default class Main extends React.PureComponent {
             justify='center'
             align='center'
             flex='grow'
-            pad='small'>
+            pad='small'
+          >
             <Menu
               responsive
               direction='row'>

@@ -15,7 +15,8 @@ export default class Main extends React.PureComponent {
           justify='center'
           align='center'
           full='horizontal'
-          pad='small'>
+          pad='small'
+        >
           <Paragraph>
             © 2017 Jenny Nguyen
           </Paragraph>
