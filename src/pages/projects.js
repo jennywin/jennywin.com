@@ -3,9 +3,9 @@ import React from 'react'
 import Heading from 'grommet/components/Heading'
 import Anchor from 'grommet/components/Anchor'
 import Section from 'grommet/components/Section'
-import Tiles from 'grommet/components/Tiles';
-import Tile from 'grommet/components/Tile';
-import Card from 'grommet/components/Card';
+import Tiles from 'grommet/components/Tiles'
+import Tile from 'grommet/components/Tile'
+import Card from 'grommet/components/Card'
 
 import CardImage1 from '../assets/projects/the-petite-life.png'
 import CardImage2 from '../assets/projects/globalxplorer.png'
