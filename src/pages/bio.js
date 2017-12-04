@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'gatsby-link'
 
 import Heading from 'grommet/components/Heading'
 import Section from 'grommet/components/Section'
