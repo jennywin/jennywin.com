@@ -20,14 +20,10 @@ export default class Main extends React.PureComponent {
             align='center'
             pad='small'
           >
-            <Anchor href='/'>
-              <img src={Logo} className="logo" />
-            </Anchor>
-            <Anchor href='/'>
-              <Title>
-                Jenny Nguyen
-              </Title>
-            </Anchor>
+            <img src={Logo} className='logo__image' />
+            <Title className='logo__text'>
+              Jenny Nguyen
+            </Title>
           </Box>
           <Box
             direction='row'
@@ -39,16 +35,16 @@ export default class Main extends React.PureComponent {
             <Menu
               responsive
               direction='row'>
-              <Anchor href='/' className='active'>
+              <Anchor href='/' className='menu__links'>
                 Home
               </Anchor>
-              <Anchor href='/bio'>
+              <Anchor href='/bio' className='menu__links'>
                 Bio
               </Anchor>
-              <Anchor href='/projects'>
+              <Anchor href='/projects' className='menu__links'>
                 Projects
               </Anchor>
-              <Anchor href='/contact'>
+              <Anchor href='/contact' className='menu__links'>
                 Contact
               </Anchor>
             </Menu>
