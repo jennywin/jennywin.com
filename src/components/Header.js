@@ -30,7 +30,7 @@ export default class Main extends React.PureComponent {
             justify='center'
             align='center'
             flex='grow'
-            pad='small'
+            pad='medium'
           >
             <Menu
               responsive

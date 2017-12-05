@@ -9,7 +9,7 @@ import Logo from '../assets/logo.svg'
 export default class Main extends React.PureComponent {
   render() {
     return (
-      <Footer primary colorIndex='neutral-1'>
+      <Footer primary>
         <Box
           direction='row'
           justify='center'
@@ -18,7 +18,7 @@ export default class Main extends React.PureComponent {
           pad='small'
         >
           <Paragraph>
-            © 2017 Jenny Nguyen
+            <strong>© 2017 Jenny Nguyen</strong>
           </Paragraph>
         </Box>
       </Footer>
