@@ -9,7 +9,7 @@ import Logo from '../assets/logo.svg'
 export default class Main extends React.PureComponent {
   render() {
     return (
-      <Footer primary>
+      <Footer primary colorIndex='brand'>
         <Box
           direction='row'
           justify='center'

@@ -1,8 +1,6 @@
 import React from 'react'
-import Link from 'gatsby-link'
 
 import Heading from 'grommet/components/Heading'
-import Section from 'grommet/components/Section'
 import Box from 'grommet/components/Box'
 import Hero from 'grommet/components/Hero'
 import Paragraph from 'grommet/components/Paragraph'
@@ -18,19 +16,12 @@ export default class Index extends React.Component {
         backgroundColorIndex='dark'
         size='large'
       >
-        <Box
-          direction='row'
-          colorIndex='neutral-4'
-          justify='center'
-          pad='small'
-        >
-          <Heading
-            tag='h2'
-            strong
-            align='center'
-          >
-            Do things that scare you. It's the only way to really know yourself.
-          </Heading>
+        <Box direction='column' colorIndex='neutral-4' justify='center' pad='small' full='vertical' size='medium' className='hero__text'>
+          <Box colorIndex='neutral-3' full='horizontal'>
+            <Heading tag='h2' strong align='center'>
+              Do things that scare you. It's the only way to really know yourself.
+            </Heading>
+          </Box>
         </Box>
       </Hero>
     )
