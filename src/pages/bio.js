@@ -34,16 +34,15 @@ export default class Bio extends React.Component {
               <Heading tag='h1' strong align='center'>
                 Bio
               </Heading>
+              <Heading tag='h2' strong align='center'>
+                Hi! I'm Jenny and that's my dog, Rumi.
+            </Heading>
             </Box>
           </Box>
         </Hero>
 
         <Section pad='medium'>
           <Box full='horizontal' pad='large'>
-            <Heading tag='h2' strong align='center'>
-              Hi! I'm Jenny and that's my dog, Rumi.
-            </Heading>
-
             <Paragraph size='xlarge'>
               Some quick facts:
             </Paragraph>
