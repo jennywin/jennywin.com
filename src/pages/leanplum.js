@@ -11,8 +11,10 @@ import ListItem from 'grommet/components/ListItem'
 import Section from 'grommet/components/Section'
 import Anchor from 'grommet/components/Anchor'
 import Columns from 'grommet/components/Columns'
+import Button from 'grommet/components/Button'
 
 import HeroImage from '../assets/rumi-me.jpg'
+import Resume from '../assets/Jenny Nguyen - Resume.pdf'
 
 export default class Leanplum extends React.Component {
   render() {
@@ -90,6 +92,13 @@ export default class Leanplum extends React.Component {
               </Heading>
               <Paragraph>
                 Mobile is how everyone connects to each other - across the world, across cultures. I'm fascinated by what motivates people and how to engage people in today's modern age where there is so much stimulation. How do we create something meaningful that builds on top of the platform that technology provides us with in order to stay connected and stay human?
+              </Paragraph>
+
+              <Paragraph>
+                <Button
+                  primary
+                  href={Resume}
+                  label='Resume' />
               </Paragraph>
             </Box>
           </Columns>
