@@ -18,8 +18,8 @@ export default class Index extends React.Component {
         size='large'
       >
         <Helmet titleTemplate='%s | Jenny Nguyen' title='Home' />
-        <Box direction='column' colorIndex='neutral-4' justify='center' pad='small' full='vertical' size='medium' className='hero__text'>
-          <Box colorIndex='neutral-3' full='horizontal'>
+        <Box direction='column' colorIndex='neutral-4' justify='start' full='horizontal' pad='small'>
+          <Box colorIndex='neutral-3'>
             <Heading tag='h2' strong align='center'>
               Do things that scare you. It's the only way to really know yourself.
             </Heading>

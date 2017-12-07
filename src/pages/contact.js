@@ -33,7 +33,6 @@ export default class Contact extends React.Component {
             justify='center'
             align='center'
             pad='small'
-            full='vertical'
             size='medium'
             textAlign='center'
           >
