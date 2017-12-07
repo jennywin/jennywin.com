@@ -49,7 +49,8 @@ export default class Bio extends React.Component {
             </Paragraph>
             <List>
               <ListItem>I get things done - I'm a solutions architect, a front end developer, a project manager</ListItem>
-              <ListItem>I love building things - websites, workflows, processes, Burning Man theme camps - and solving problems</ListItem>
+              <ListItem>I love building things - websites, workflows, processes, Burning Man theme camps</ListItem>
+              <ListItem>I'm a problem solver</ListItem>
               <ListItem>I'm a huge productivity nerd who loves trying out new to do apps and has a spreadsheet for everything</ListItem>
               <ListItem>Getting outside and going hiking, snowboarding, camping, or galavanting around in nature rejuvenates my soul</ListItem>
               <ListItem>I'm that friend who is always prepared and has everything you need that you didn't know you would need</ListItem>
@@ -64,7 +65,7 @@ export default class Bio extends React.Component {
             <ListItem>The beautiful thing about learning is that nobody can take it away from you</ListItem>
             <ListItem>Don't assume anything</ListItem>
             <ListItem>Be radically self-reliant, but also know when to ask for help (thanks, Burning Man)</ListItem>
-            <ListItem>Don't be an asshole, plain and simple :)</ListItem>
+            <ListItem>Don't be an a**hole, plain and simple :)</ListItem>
             </List>
           </Box>
         </Section>
