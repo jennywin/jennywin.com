@@ -20,10 +20,14 @@ export default class Main extends React.PureComponent {
             align='center'
             pad='small'
           >
-            <img src={Logo} className='logo__image' />
-            <Title className='logo__text'>
-              Jenny Nguyen
-            </Title>
+            <Anchor href='/' className='logo'>
+              <Box direction='row'>
+                <img src={Logo} className='logo__image' />
+                <Title className='logo__text'>
+                  Jenny Nguyen
+                </Title>
+              </Box>
+            </Anchor>
           </Box>
           <Box
             direction='row'

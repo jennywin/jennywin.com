@@ -1,4 +1,5 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 
 import Heading from 'grommet/components/Heading'
 import Anchor from 'grommet/components/Anchor'
@@ -32,6 +33,7 @@ export default class Projects extends React.Component {
         pad='medium'
         align='center'
       >
+        <Helmet titleTemplate='%s | Jenny Nguyen' title='Projects' />
         <Heading tag='h1'>
           <strong>Projects</strong>
         </Heading>

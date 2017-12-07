@@ -1,4 +1,5 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 
 import Heading from 'grommet/components/Heading'
 import Box from 'grommet/components/Box'
@@ -15,6 +16,7 @@ export default class Bio extends React.Component {
   render() {
     return (
       <Section pad='none' margin='none'>
+        <Helmet titleTemplate='%s | Jenny Nguyen' title='Bio' />
         <Hero
           background={<Image src={HeroImage} fit='cover' full={true} />}
           backgroundColorIndex='dark'

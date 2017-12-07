@@ -1,4 +1,5 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 
 import Heading from 'grommet/components/Heading'
 import Section from 'grommet/components/Section'
@@ -20,6 +21,7 @@ export default class Contact extends React.Component {
   render() {
     return (
       <Section pad='none' margin='none'>
+        <Helmet titleTemplate='%s | Jenny Nguyen' title='Contact' />
         <Hero
           background={<Image src={HeroImage} fit='cover' full={true} />}
           backgroundColorIndex='dark'

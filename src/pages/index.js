@@ -1,4 +1,5 @@
 import React from 'react'
+import Helmet from 'react-helmet'
 
 import Heading from 'grommet/components/Heading'
 import Box from 'grommet/components/Box'
@@ -16,6 +17,7 @@ export default class Index extends React.Component {
         backgroundColorIndex='dark'
         size='large'
       >
+        <Helmet titleTemplate='%s | Jenny Nguyen' title='Home' />
         <Box direction='column' colorIndex='neutral-4' justify='center' pad='small' full='vertical' size='medium' className='hero__text'>
           <Box colorIndex='neutral-3' full='horizontal'>
             <Heading tag='h2' strong align='center'>

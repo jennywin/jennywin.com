@@ -6,6 +6,7 @@ module.exports = {
   },
   pathPrefix: '/',
   plugins: [
+    'gatsby-plugin-react-helmet',
     {
       resolve: 'custom-sass-loader',
       options: {
