@@ -9,8 +9,7 @@
     "build": "gatsby build",
     "clean": "git clean -xfd .cache public/",
     "serve": "yarn run clean && yarn run build && gatsby serve",
-    "deploy": "yarn run build -- --prefix-paths && surge public/ --domain jennywin.com",
-    "surge": "surge public/ --domain jennywin.com"
+    "deploy": "yarn run build && surge public/ --domain jennywin.com"
   },
   "dependencies": {
     "autoprefixer": "^7.1.2",
