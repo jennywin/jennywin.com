@@ -77,8 +77,8 @@ export default class Leanplum extends React.Component {
                 I deliver custom solutions for clients.
               </Heading>
               <Paragraph>
-                While managing multiple projects in parallel, I serve as the bridge between clients, sales, delivery, and engineering. To gain client trust, I develop an intimate knowledge of their needs, requirements, and data.<br /><br />
-                What I do on the regular: client consultations, data analysis, develop workflows and processes, write scripts, and implement solutions.
+                While managing multiple POCs (proofs of concept), pilots, and projects in parallel, I serve as the bridge between clients, sales, delivery, and engineering. To gain client trust, I develop an intimate knowledge of their needs, requirements, and data.<br /><br />
+                What I do on the regular: client consultations, data analysis, develop workflows and processes, write scripts, draft SOWs (statements of work), and implement solutions.
               </Paragraph>
 
               <Heading tag='h4' strong>
