@@ -56,7 +56,7 @@ export default class Contact extends React.Component {
                   </Anchor>
                 </Tile>
                 <Tile>
-                  <Anchor target='_blank' href='http://www.github.com/jenny-win'>
+                  <Anchor target='_blank' href='http://www.github.com/jennywin'>
                     <SocialGithubIcon size='medium' />
                   </Anchor>
                 </Tile>
