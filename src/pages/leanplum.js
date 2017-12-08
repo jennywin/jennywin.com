@@ -14,7 +14,6 @@ import Columns from 'grommet/components/Columns'
 import Button from 'grommet/components/Button'
 
 import HeroImage from '../assets/rumi-me.jpg'
-import Resume from '../assets/Jenny Nguyen - Resume.pdf'
 
 export default class Leanplum extends React.Component {
   render() {
@@ -61,7 +60,7 @@ export default class Leanplum extends React.Component {
                 <ListItem>I do things I'm scared of, like jumping out of planes or confronting my fear of water.</ListItem>
                 <ListItem>We both have zero tolerance for jerks.</ListItem>
                 <ListItem>I'm a relentless problem solver at the core.</ListItem>
-                <ListItem>I'm value working solo and thrive when working with a team.</ListItem>
+                <ListItem>I value working solo and thrive when working with a team.</ListItem>
                 <ListItem>I have experience working remotely and internationally.</ListItem>
                 <ListItem>I'm passionate about bridging the (empathy) gap between cross-functional teams to develop collaborative relationships.</ListItem>
                 <ListItem>I get down on the dance floor.</ListItem>
@@ -98,7 +97,7 @@ export default class Leanplum extends React.Component {
               <Paragraph>
                 <Button
                   primary
-                  href={Resume}
+                  href='https://www.dropbox.com/s/jpa150i4g3aulyu/Jenny%20Nguyen%20-%20Resume.pdf?dl=0'
                   label='Resume' />
               </Paragraph>
             </Box>
