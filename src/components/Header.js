@@ -7,7 +7,8 @@ import Title from 'grommet/components/Title'
 import Menu from 'grommet/components/Menu'
 import Anchor from 'grommet/components/Anchor'
 
-import Logo from '../assets/logo.svg'
+// import Logo from '../assets/logo.svg'
+import Logo from './Logo'
 
 export default class Main extends React.PureComponent {
   render() {
@@ -22,7 +23,7 @@ export default class Main extends React.PureComponent {
           >
             <Anchor href='/' className='logo'>
               <Box direction='row'>
-                <img src={Logo} className='logo__image' />
+                <Logo />
                 <Title className='logo__text'>
                   Jenny Nguyen
                 </Title>

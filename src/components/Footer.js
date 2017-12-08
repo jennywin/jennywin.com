@@ -4,8 +4,6 @@ import Footer from 'grommet/components/Footer'
 import Box from 'grommet/components/Box'
 import Paragraph from 'grommet/components/Paragraph'
 
-import Logo from '../assets/logo.svg'
-
 export default class Main extends React.PureComponent {
   render() {
     return (
